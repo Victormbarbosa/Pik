@@ -29,25 +29,6 @@ h1 {
     font-size: 250%;
 }
 
-#formulario {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    text-align: center;
-    width: 500px;
-}
-
-.Input {
-    position: relative;
-}
-
-#sub {
-    background-color: #A58E81;
-    border-block-color: #A58E81;
-    color: white;
-    height: 40px;
-    width: 200px;
-}
-
 
 /*Configuration of the right column*/
 
@@ -56,4 +37,26 @@ h2 {
     text-align: left;
     font-family: 'Arvo', serif;
     font-size: 20px;
+}
+
+#formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+#sub {
+    background-color: #A58E81;
+    color: white;
+    border-color: #A58E81;
+    height: 40px;
+    width: 200px;
+}
+
+#in {
+    border-block-color: #A58E81;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
 }
