@@ -36,7 +36,17 @@ h1 {
     width: 500px;
 }
 
-#sub {}
+.Input {
+    position: relative;
+}
+
+#sub {
+    background-color: #A58E81;
+    border-block-color: #A58E81;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
 
 
 /*Configuration of the right column*/
