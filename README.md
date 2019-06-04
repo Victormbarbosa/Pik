@@ -1,6 +1,6 @@
 # Pik
 <p align="center">
-  <img width="460" height="400" src="https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png">
+  <img width="230" height="200" src="https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png">
 </p>
 
 Pik is a prototype of a social media to share pictures.
