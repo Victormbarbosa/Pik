@@ -11,7 +11,7 @@ form {
 
 body {
     height: 100vh;
-    background: rgb(255, 174, 167);
+    background: #F5BAD5;
     overflow: hidden;
 }
 
@@ -100,7 +100,7 @@ body {
     font-size: 25px;
     text-align: center;
     height: 50px;
-    color: #A58E81;
+    color: #C05B87;
     font-family: 'Arvo', serif;
 }
 
@@ -115,21 +115,21 @@ form>* {
 form input {
     width: 90%;
     border: 0;
-    border-bottom: 1px solid #A58E81;
+    border-bottom: 1px solid #C05B87;
     font-size: 13px;
     font-weight: 300;
-    color: #A58E81;
+    color: #C05B87;
     letter-spacing: 0.11em;
 }
 
 form input::placeholder {
-    color: #A58E81;
+    color: #C05B87;
     font-size: 13px;
 }
 
 form input:focus {
     outline: 0;
-    border-bottom: 1px solid #A58E81;
+    border-bottom: 1px solid #C05B87;
     transition: 0.6s all ease;
 }
 
@@ -147,7 +147,7 @@ form input:focus {
     position: relative;
     z-index: 3;
     letter-spacing: 2px;
-    background: linear-gradient(45deg, #A58E81, #A58E81);
+    background: linear-gradient(45deg, #C05B87, #C05B87);
     font-family: 'Arvo', serif;
 }
 
