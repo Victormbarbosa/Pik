@@ -1,14 +1,6 @@
-# Pik (Español)
-Pik es un prototipo de red social para compartir imagenes.
-
-## Motivación
-Pik nació como un proyecto personal de Valeria Osorio en colaboración con Diego Albor y Victor Barbosa (actualmente) y perteneciente a la organización Cayena Amarilla. La idea surgió tras un comentario de un usuario en Reddit hablando de acerca de lo dependiente que era de la validación en las redes sociales, y como eso había terminado alejandolo.
-Todas las personas involucradas en este proyecto sentían interes en ser web developers, por lo que aceptaron la idea como una forma practica de iniciarse en el campo.
-
-## Lenguajes y otros.
-Html, css y javascript (actualmente), en compañía de varias librerías.
-
 # Pik
+![Pik's logo](https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png)
+
 Pik is a prototype of a social media to share pictures.
 
 ## Motivation
@@ -17,3 +9,15 @@ All the people involved in this project were interested in being web developers,
 
 ## Languages ​​and others.
 Html, css and javascript (currently), in the company of several libraries.
+
+# Pik (Español)
+![Logo de Pik](https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png)
+
+Pik es un prototipo de red social para compartir imagenes.
+
+## Motivación
+Pik nació como un proyecto personal de Valeria Osorio en colaboración con Diego Albor y Victor Barbosa (actualmente) y perteneciente a la organización Cayena Amarilla. La idea surgió tras un comentario de un usuario en Reddit hablando de acerca de lo dependiente que era de la validación en las redes sociales, y como eso había terminado alejandolo.
+Todas las personas involucradas en este proyecto sentían interes en ser web developers, por lo que aceptaron la idea como una forma practica de iniciarse en el campo.
+
+## Lenguajes y otros.
+Html, css y javascript (actualmente), en compañía de varias librerías.
