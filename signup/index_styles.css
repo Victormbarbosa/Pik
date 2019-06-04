@@ -15,6 +15,14 @@ body {
     overflow: hidden;
 }
 
+.main-navigation .navigation-logo {
+    padding-top: 0;
+}
+
+.main-navigation .navigation-logo img {
+    height: 80px;
+}
+
 
 /*Establece las caracteristicas del container (las cosa blanca de fondo)*/
 

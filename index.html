@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <!-- El titulo que sale en la pestaña -->
     <title>Pik | Start</title>
+    <!-- El icono que aparece en la pestaña-->
+    <link rel="icon" href="./Media/piklogo.png" type="image/x-icon">
     <!-- Todas las 'librerías que se esten usando' -->
     <link rel="stylesheet" href="./signup/index_styles.css">
     <script src="https://kit.fontawesome.com/53eb99fdd4.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body dir="auto">
     <!-- contiene (:v) atributos y objetos dentro de un espacio limitado-->
     <div class="container">
         <!-- Se crea una clase para contener los mensajes -->
@@ -34,7 +36,7 @@
                 <input type="password" placeholder="Password" name="pass">
                 <input type="password" placeholder="Confirm password" name="cpass"> <br>
                 <!-- Boton tipo submit que guarda todo lo que este en el formulario y redirige a otra pagina -->
-                <a href="#"><input type="submit" placeholder="Sign Up" class="button"></a>
+                <a href="#" style="text-decoration:none"><input type="submit" value="Sign Up" class="button"></a>
             </form>
         </div>
         <!-- Declarando una clase form para el login -->
@@ -46,7 +48,7 @@
                 <input type="text" placeholder="Username" name="use">
                 <input type="password" placeholder="Password" name="pas">
                 <!-- Boton tipo submit que toma todo lo que este en el formulario y redirige a otra pagina -->
-                <a href="#"><input type="submit" placeholder="Log in" class="button"></a>
+                <a href="Home/home.html" style="text-decoration:none"><input type="submit" value="Log in" class="button"></a>
             </form>
         </div>
     </div>
