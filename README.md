@@ -1,5 +1,7 @@
 # Pik
-![Pik's logo](https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png">
+</p>
 
 Pik is a prototype of a social media to share pictures.
 
@@ -11,8 +13,6 @@ All the people involved in this project were interested in being web developers,
 Html, css and javascript (currently), in the company of several libraries.
 
 # Pik (Español)
-![Logo de Pik](https://github.com/cayena-amarilla/pik/blob/master/Media/piklogo.png)
-
 Pik es un prototipo de red social para compartir imagenes.
 
 ## Motivación
