@@ -9,7 +9,6 @@
     <link rel="icon" href="./Media/piklogo.png" type="image/x-icon">
     <!-- Todas las 'librerías que se esten usando' -->
     <link rel="stylesheet" href="./signup/index_styles.css">
-    <script src="https://kit.fontawesome.com/53eb99fdd4.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
 </head>
 
@@ -36,7 +35,7 @@
                 <input type="password" placeholder="Password" name="pass">
                 <input type="password" placeholder="Confirm password" name="cpass"> <br>
                 <!-- Boton tipo submit que guarda todo lo que este en el formulario y redirige a otra pagina -->
-                <a href="home.html" style="text-decoration:none"><input type="submit" value="Sign Up" class="button"></a>
+                <input type="submit" class="button" value="Sign up" onClick="location.href='home.html'">
             </form>
         </div>
         <!-- Declarando una clase form para el login -->
@@ -48,7 +47,7 @@
                 <input type="text" placeholder="Username" name="use">
                 <input type="password" placeholder="Password" name="pas">
                 <!-- Boton tipo submit que toma todo lo que este en el formulario y redirige a otra pagina -->
-                <a href="home.html" style="text-decoration:none"><input type="submit" value="Log in" class="button"></a>
+                <input type="submit" class="button" value="Log in" onClick="location.href='home.html'">
             </form>
         </div>
     </div>

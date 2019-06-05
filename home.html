@@ -6,19 +6,25 @@
     <title>Pik | Start</title>
     <!-- El icono que aparece en la pestaña-->
     <link rel="icon" href="./Media/piklogo.png" type="image/x-icon">
+    <!-- Referenciando librerías y css-->
     <link rel="stylesheet" href="./Home/home_styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53eb99fdd4.js"></script>
 </head>
 
+<!-- Barra de menu de navegación-->
 <header>
     <nav>
-        <a href="home.html"> <img src="./Media/pik-logo.png"> </a>
+        <div class="logo">
+            <a href="home.html"> <img src="./Media/pik-logo.png"> </a>
+        </div>
         <ul class="menu">
-            <li> <input type="text" placeholder="Search.." class="search"></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Reccomended</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Log out</a></li>
+            <li> <input type="text" placeholder="Search..." class="search"></li>
+            <li><a href="#"><i class="fas fa-plus"></i>  New post</a></li>
+            <li><a href="#"><i class="fas fa-user"></i>  Profile</a></li>
+            <li><a href="#"><i class="fas fa-globe-americas"></i>  Discover</a></li>
+            <li><a href="#"><i class="fas fa-cogs"></i>  Settings</a></li>
+            <li><a href="#"><i class="fas fa-sign-out-alt"></i>  Log out</a></li>
         </ul>
     </nav>
 </header>
