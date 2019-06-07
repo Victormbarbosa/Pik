@@ -98,7 +98,7 @@ a:hover {
     color: white;
 }
 
-.modal-close {
+.cerrar {
     color: white;
     line-height: 50px;
     font-size: 80%;
@@ -110,7 +110,7 @@ a:hover {
     text-decoration: none;
 }
 
-.modal-close:hover {
+.cerrar:hover {
     color: #C05B87;
 }
 
