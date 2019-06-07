@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <!-- El titulo que sale en la pestaña -->
+    <title>Pik | Start</title>
+    <!-- El icono que aparece en la pestaña-->
+    <link rel="icon" href="./Media/piklogo.png" type="image/x-icon">
+    <!-- Todas las 'librerías que se esten usando' -->
+    <link rel="stylesheet" href="./signup/index_styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+</head>
+
+<body dir="auto">
+    <!-- contiene (:v) atributos y objetos dentro de un espacio limitado-->
+    <div class="container">
+        <!-- Se crea una clase para contener los mensajes -->
+        <div class="message signup">
+            <div class="btn-wrapper">
+                <button class="button" id="signup">Sign up</button>
+                <button class="button" id="login"> Log in</button>
+            </div>
+        </div>
+        <!-- Declarando una clase para el registro -->
+        <div class="form form--signup">
+            <p>
+                <div class="form--heading">Welcome to Pik! <br> To join us, please sign up!</div>
+            </p>
+            <!-- autocompleta el formulario de acuerdo a lo que el usuario haya metido antes -->
+            <form autocomplete="on">
+                <!-- Los tipos de inputs que se llenan en el formulario de registro, lo que dicen, y el nombre de la variable -->
+                <input type="text" placeholder="Username" name="user">
+                <input type="email" placeholder="E-mail" name="email">
+                <input type="password" placeholder="Password" name="pass">
+                <input type="password" placeholder="Confirm password" name="cpass"> <br>
+                <!-- Boton tipo submit que guarda todo lo que este en el formulario y redirige a otra pagina -->
+                <input type="submit" class="button" value="Sign up" onClick="location.href='home.html'">
+            </form>
+        </div>
+        <!-- Declarando una clase form para el login -->
+        <div class="form form--login">
+            <p>
+                <div class="form--heading">Welcome back! <br> We've missed you!</div>
+            </p>
+            <form autocomplete="on">
+                <input type="text" placeholder="Username" name="use">
+                <input type="password" placeholder="Password" name="pas">
+                <!-- Boton tipo submit que toma todo lo que este en el formulario y redirige a otra pagina -->
+                <input type="submit" class="button" value="Log in" onClick="location.href='home.html'">
+            </form>
+        </div>
+    </div>
+    <!-- se referencian las clases javascript y jquery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./signup/index.js"></script>
+</body>

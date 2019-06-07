@@ -1,4 +1,4 @@
-/*Configuración de la barra*/
+/*Configuración del menu de navegación*/
 
 body,
 html {
@@ -46,11 +46,76 @@ a:hover {
     color: #C05B87;
     border: 0;
     border-radius: 2px;
-    width: 450px;
+    width: 470px;
 }
 
 .logo {
     position: absolute;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 40px;
+}
+
+
+/*Configuración de New post*/
+
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.modal-window:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-window>div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #F5BAD5;
+}
+
+.modal-window header {
+    font-weight: bold;
+}
+
+.modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+    font-family: 'Arvo', serif;
+    color: white;
+}
+
+.modal-close {
+    color: white;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+}
+
+.modal-close:hover {
+    color: #C05B87;
+}
+
+#tve {
+    font-size: 150%;
+    font-family: 'Arvo', serif;
+    color: white;
 }

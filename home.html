@@ -9,6 +9,7 @@
     <!-- Referenciando librerías y css-->
     <link rel="stylesheet" href="./Home/home_styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/53eb99fdd4.js"></script>
 </head>
 
@@ -20,17 +21,28 @@
         </div>
         <ul class="menu">
             <li> <input type="text" placeholder="Search..." class="search"></li>
-            <li><a href="#"><i class="fas fa-plus"></i>  New post</a></li>
-            <li><a href="#"><i class="fas fa-user"></i>  Profile</a></li>
+            <li><a href="#abrir-ventana"><i class="fas fa-plus"></i>  New post</a></li>
+            <li><a href="./perfil.html"><i class="fas fa-user"></i>  Profile</a></li>
             <li><a href="#"><i class="fas fa-globe-americas"></i>  Discover</a></li>
             <li><a href="#"><i class="fas fa-cogs"></i>  Settings</a></li>
-            <li><a href="#"><i class="fas fa-sign-out-alt"></i>  Log out</a></li>
+            <li><a href="./sign-log.html"><i class="fas fa-sign-out-alt"></i>  Log out</a></li>
         </ul>
     </nav>
 </header>
 
 <body>
+    <!-- Esta sección del código pertenece a la opción del menú "New post" -->
+    <div id="abrir-ventana" class="modal-window">
+        <div>
+            <a href="#" title="Close" class="modal-close">Close</a>
+            <h1>New post</h1>
 
+        </div>
+    </div>
+    <!-- Esta sección del código pertenece a la opción del menú "Profile" -->
+    <!-- Esta sección del código pertenece a la opción del menú "Discover" -->
+    <!-- Esta sección del código pertenece a la opción del menú "Settings" -->
+    <!-- Esta sección del código pertenece a la opción del menú "Log out" -->
 </body>
 
 </html>
